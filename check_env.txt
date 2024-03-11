@@ -1,0 +1,115 @@
+[1;93m[!] [1;97mWARNING: [0mMistyped AFL environment variable: AFL_DATAFLOW=0[0m
+Did you mean AFL_AS?
+Did you mean AFL_CC?
+[1;93m[!] [1;97mWARNING: [0mMistyped AFL environment variable: AFL_PC_ADDRESS=1[0m
+Did you mean AFL_AS?
+Did you mean AFL_CC?
+Did you mean AFL_GCJ?
+[0;36mafl-fuzz++4.10c[0m based on afl by Michal Zalewski and a large online community
+[1;92m[+] [0mAFL++ is maintained by Marc "van Hauser" Heuse, Dominik Maier, Andrea Fioraldi and Heiko "hexcoder" Eißfeldt[0m
+[1;92m[+] [0mAFL++ is open source, get it at https://github.com/AFLplusplus/AFLplusplus[0m
+[1;92m[+] [0mNOTE: AFL++ >= v3 has changed defaults and behaviours - see README.md[0m
+[1;92m[+] [0mNo -M/-S set, autoconfiguring for "-S default"[0m
+[1;94m[*] [0mGetting to work...[0m
+[1;92m[+] [0mUsing exploration-based constant power schedule (EXPLORE)[0m
+[1;92m[+] [0mEnabled testcache with 50 MB[0m
+[1;92m[+] [0mGenerating fuzz data with a length of min=1 max=1048576[0m
+[1;94m[*] [0mChecking core_pattern...[0m
+[1;94m[*] [0mChecking CPU scaling governor...[0m
+[1;92m[+] [0mLooks like we're not running on a tty, so I'll be a bit less verbose.[0m
+[1;92m[+] [0mYou have 8 CPU cores and 3 runnable tasks (utilization: 38%).[0m
+[1;92m[+] [0mTry parallel jobs - see /usr/local/share/doc/afl/fuzzing_in_depth.md#c-using-multiple-cores[0m
+[1;94m[*] [0mSetting up output directories...[0m
+[1;92m[+] [0mOutput directory exists but deemed OK to reuse.[0m
+[1;94m[*] [0mDeleting old session data...[0m
+[1;92m[+] [0mOutput dir cleanup successful.[0m
+[1;94m[*] [0mChecking CPU core loadout...[0m
+[1;92m[+] [0mFound a free CPU core, try binding to #1.[0m
+[1;94m[*] [0mScanning 'include/'...[0m
+[1;92m[+] [0mLoaded a total of 20 seeds.[0m
+[1;94m[*] [0mCreating hard links for all input files...[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;94m[*] [0mNo auto-generated dictionary tokens to reuse.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000000,time:0,execs:0,orig:afl-as.h'...[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;94m[*] [0mTarget map size: 65536[0m
+[1;90m    len = 23681, map size = 998, exec speed = 4623 us, hash = fd66e6069fe6a6f8
+[0m[1;94m[*] [0mAttempting dry run with 'id:000001,time:0,execs:0,orig:afl-fuzz.h'...[0m
+[1;90m    len = 49486, map size = 998, exec speed = 678 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000002,time:0,execs:0,orig:afl-mutations.h'...[0m
+[1;90m    len = 78749, map size = 1000, exec speed = 881 us, hash = 1c1cb38cda633ab0
+[0m[1;94m[*] [0mAttempting dry run with 'id:000003,time:0,execs:0,orig:afl-prealloc.h'...[0m
+[1;90m    len = 6910, map size = 998, exec speed = 730 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000004,time:0,execs:0,orig:alloc-inl.h'...[0m
+[1;90m    len = 20426, map size = 998, exec speed = 717 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000005,time:0,execs:0,orig:android-ashmem.h'...[0m
+[1;90m    len = 1759, map size = 999, exec speed = 799 us, hash = 2041998b743c9704
+[0m[1;94m[*] [0mAttempting dry run with 'id:000006,time:0,execs:0,orig:cmplog.h'...[0m
+[1;90m    len = 1874, map size = 998, exec speed = 726 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000007,time:0,execs:0,orig:common.h'...[0m
+[1;90m    len = 4912, map size = 998, exec speed = 750 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000008,time:0,execs:0,orig:config.h'...[0m
+[1;90m    len = 17035, map size = 998, exec speed = 734 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000009,time:0,execs:0,orig:coverage-32.h'...[0m
+[1;90m    len = 2485, map size = 1000, exec speed = 777 us, hash = 82e8662898749df4
+[0m[1;94m[*] [0mAttempting dry run with 'id:000010,time:0,execs:0,orig:coverage-64.h'...[0m
+[1;90m    len = 4730, map size = 1000, exec speed = 746 us, hash = 82e8662898749df4
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000011,time:0,execs:0,orig:debug.h'...[0m
+[1;90m    len = 15724, map size = 998, exec speed = 729 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000012,time:0,execs:0,orig:envs.h'...[0m
+[1;90m    len = 6568, map size = 999, exec speed = 763 us, hash = 5f7b5a3f11fba544
+[0m[1;94m[*] [0mAttempting dry run with 'id:000013,time:0,execs:0,orig:forkserver.h'...[0m
+[1;90m    len = 9682, map size = 998, exec speed = 736 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000014,time:0,execs:0,orig:hash.h'...[0m
+[1;90m    len = 2370, map size = 998, exec speed = 711 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000015,time:0,execs:0,orig:list.h'...[0m
+[1;90m    len = 5207, map size = 998, exec speed = 709 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000016,time:0,execs:0,orig:sharedmem.h'...[0m
+[1;90m    len = 1820, map size = 998, exec speed = 726 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000017,time:0,execs:0,orig:snapshot-inl.h'...[0m
+[1;90m    len = 3346, map size = 998, exec speed = 746 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000018,time:0,execs:0,orig:types.h'...[0m
+[1;90m    len = 6612, map size = 998, exec speed = 736 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000019,time:0,execs:0,orig:xxhash.h'...[0m
+[1;90m    len = 216134, map size = 998, exec speed = 785 us, hash = fd66e6069fe6a6f8
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;92m[+] [0mAll test cases processed.[0m
+[1;93m[!] [1;97mWARNING: [0m[1;91mSome test cases are huge (76.9 kB) - see /usr/local/share/doc/afl/fuzzing_in_depth.md#i-improve-the-speed[0m
+[1;93m[!] [1;97mWARNING: [0m[1;91mSome test cases look useless. Consider using a smaller set.[0m
+[1;92m[+] [0mHere are some useful stats:
+
+[1;90m    Test case count : [0m4 favored, 0 variable, 15 ignored, 20 total
+[1;90m       Bitmap range : [0m998 to 1000 bits (average: 998.40 bits)
+[1;90m        Exec timing : [0m726 to 881 us (average: 940 us)
+[0m
+[1;94m[*] [0mNo -t option specified, so I'll use an exec timeout of 20 ms.[0m
+[1;92m[+] [0mAll set and ready to roll![0m
+[1;94m[*] [0mEntering queue cycle 1.[0m
+[1;94m[*] [0mFuzzing test case #16 (20 total, 0 crashes saved, state: started :-), mode=explore, perf_score=0, weight=0, favorite=1, was_fuzzed=0, exec_us=726, hits=0, map=998, ascii=0, run_time=0:00:00:00)...[0m
+[1;94m[*] [0mFuzzing test case #5 (20 total, 0 crashes saved, state: started :-), mode=explore, perf_score=100, weight=10, favorite=1, was_fuzzed=0, exec_us=799, hits=0, map=999, ascii=0, run_time=0:00:00:00)...[0m
+[1;94m[*] [0mFuzzing test case #48 (82 total, 8 crashes saved, state: started :-), mode=explore, perf_score=0, weight=0, favorite=1, was_fuzzed=0, exec_us=770, hits=0, map=1221, ascii=0, run_time=0:00:00:09)...[0m
+[1;94m[*] [0mFuzzing test case #79 (82 total, 8 crashes saved, state: started :-), mode=explore, perf_score=100, weight=24, favorite=1, was_fuzzed=0, exec_us=479, hits=0, map=1112, ascii=0, run_time=0:00:00:09)...[0m
+[1;94m[*] [0mFuzzing test case #159 (235 total, 103 crashes saved, state: started :-), mode=explore, perf_score=0, weight=0, favorite=1, was_fuzzed=0, exec_us=464, hits=0, map=1058, ascii=0, run_time=0:00:00:16)...[0m
+[1;94m[*] [0mFuzzing test case #101 (235 total, 103 crashes saved, state: started :-), mode=explore, perf_score=100, weight=167, favorite=1, was_fuzzed=0, exec_us=518, hits=0, map=1264, ascii=0, run_time=0:00:00:16)...[0m
+[1;94m[*] [0mFuzzing test case #228 (253 total, 111 crashes saved, state: started :-), mode=explore, perf_score=100, weight=30, favorite=1, was_fuzzed=0, exec_us=500, hits=0, map=1223, ascii=0, run_time=0:00:00:18)...[0m
+[?25h[1;91m
+
++++ Testing aborted by user +++
+[0m[1;94m[*] [0mStatistics: 257 new corpus items found, 3.52% coverage achieved, 116 crashes saved, 0 timeouts saved, total runtime 0 days, 0 hrs, 0 min, 20 sec[0m
+[1;92m[+] [0mWe're done here. Have a nice day!
+[0m

@@ -1,0 +1,7 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=./VUN
+AFL_CUSTOM_INFO_PROGRAM_ARGV=
+AFL_CUSTOM_INFO_OUT=testagain/default
+AFL_MAP_SIZE=10000000
+# command line:
+'afl-fuzz' '-i' 'include/' '-o' 'testagain' '-Q' '-m' 'none' './VUN'

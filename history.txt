@@ -1,0 +1,1000 @@
+ 1082  cd qemuafl
+ 1083  ls
+ 1084  find eflload.c
+ 1085  git add .
+ 1086  git commit -am "test"
+ 1087  git push
+ 1088  git status 
+ 1089  git commit -am "print entry_point"
+ 1090  git push
+ 1091  cd ..
+ 1092  ./build_qemu_support.sh 
+ 1093  /bin/sh "/home/kai/project/afl-latest/AFLplusplus/qemu_mode/build_qemu_support.sh"
+ 1094  cd qemu_mode/
+ 1095  ./build_qemu_support.sh 
+ 1096  cd ..
+ 1097  cat .git
+ 1098  cd .git/info/
+ 1099  cd ..
+ 1100  cat .gitmodules 
+ 1101  git commit -m "test"
+ 1102  git config
+ 1103  git config --local
+ 1104  git config --local 
+ 1105  git config --list
+ 1106  ls
+ 1107  cd qemu_mode/
+ 1108  ./build_qemu_support.sh 
+ 1109  git commit -m "test input"
+ 1110  git push
+ 1111  cat .gitmodules 
+ 1112  cd ..
+ 1113  cd qemuafl-dataflow/
+ 1114  ls
+ 1115  git commit -m "fix-issus"
+ 1116  git add .vscode/
+ 1117  git commit -m "fix-issus"
+ 1118  git push 
+ 1119  git config --list
+ 1120  git remote rm origin
+ 1121  git config --list
+ 1122  git remote add git@github.com:MaksimFeng/qemuafl-dataflow.git
+ 1123  git remote add -m git@github.com:MaksimFeng/qemuafl-dataflow.git
+ 1124  git remote add origin git@github.com:MaksimFeng/qemuafl-dataflow.git
+ 1125  git -add .
+ 1126  git add .
+ 1127  git commit 
+ 1128  git commit -a
+ 1129  git status
+ 1130  git add .
+ 1131  git commit -a
+ 1132  git pull
+ 1133  git commit -a
+ 1134  git push
+ 1135  git pull
+ 1136  git commit -a
+ 1137  git status
+ 1138  git restore --stage
+ 1139  git restore --stage accel/tcg/translator.c
+ 1140  git commit -a
+ 1141  git restore --stage accel/tcg/translator.c
+ 1142  git pull
+ 1143  git push
+ 1144  git status
+ 1145  git add .
+ 1146  git commit
+ 1147  git commit -a
+ 1148  git commit -am "commit message"
+ 1149  git push
+ 1150  git push --set-upstream origin master
+ 1151  cd qemu_mode/
+ 1152  cat .gitmodules
+ 1153  gitls -a
+ 1154  ls -a
+ 1155  cd ..
+ 1156  ls -a
+ 1157  cat .gitmodules
+ 1158  cat .git/modules/qemu_mode/qemuafl/config 
+ 1159  vim .git/modules/qemu_mode/qemuafl/config 
+ 1160  cd qemu_mode/
+ 1161  ./build_qemu_support.sh 
+ 1162  ls -l ../afl-qemu-trace 
+ 1163  ./build_qemu_support.sh 
+ 1164  cd ..
+ 1165  cat .gitmodules 
+ 1166  vim .git/modules/qemu_mode/qemuafl/config 
+ 1167  cat .gitmodules 
+ 1168  vim .gitmodules 
+ 1169  cat .gitmodules 
+ 1170  git submodule sync 
+ 1171  git submodule init
+ 1172  git submodule update 
+ 1173  ls
+ 1174  cd qemu_mode/
+ 1175  ./build_qemu_support.sh 
+ 1176  cd ..
+ 1177  cat .gitmodules 
+ 1178  cd qemu_mode/
+ 1179  vim .git/modules/qemu_mode/qemuafl/config 
+ 1180  cd ..
+ 1181  vim .git/modules/qemu_mode/qemuafl/config 
+ 1182  git submodule init
+ 1183  cat .gitmodules 
+ 1184  cd qemu_mode/
+ 1185  test -d qemuafl/.git
+ 1186  cat qemuafl/.git
+ 1187  cat qemuafl/.gitmodules 
+ 1188  ./build_qemu_support.sh 
+ 1189  cd ..
+ 1190  git remote rm origin
+ 1191  gir remote add origin git@github.com:MaksimFeng/AFLplusplus.git
+ 1192  git remote add origin git@github.com:MaksimFeng/AFLplusplus.git
+ 1193  git branch -M main
+ 1194  git push -u origin main
+ 1195  git config -list
+ 1196  git config --lis
+ 1197  cd qemu_mode/
+ 1198  ./build_qemu_support.sh 
+ 1199  git status
+ 1200  ./build_qemu_support.sh 
+ 1201  cd ..
+ 1202  cat .gitmodules 
+ 1203  ./build_qemu_support.sh 
+ 1204  cd qemu_mode/
+ 1205  ./build_qemu_support.sh 
+ 1206  cd ..
+ 1207  cd qemu_mode/
+ 1208  ./build_qemu_support.sh 
+ 1209  cd ..
+ 1210  vim .gitmodules 
+ 1211  cd qemu_mode/
+ 1212  ./build_qemu_support.sh 
+ 1213  cd ..
+ 1214  git submodule update --init --recursive
+ 1215  git commit
+ 1216  gitt comit -a
+ 1217  git comit -a
+ 1218  git commit -a
+ 1219  git push
+ 1220  cd qemu_mode/
+ 1221  ./build_qemu_support.sh 
+ 1222  file fuzz_bitmap 
+ 1223  ./fuzz_bitmap
+ 1224  fuzz_bitmap
+ 1225  cat fuzz_bitmap 
+ 1226  file fuzz_bitmap
+ 1227  enca
+ 1228  sudo apt install enca
+ 1229  iconv
+ 1230  iconv -c -f iconv -f ISO-8859-1 -t UTF-8 fuzz_bitmap1 > outputfile.txt
+ 1231  file outputfile.txt 
+ 1232  enca fuzz_bitmap
+ 1233  afl -h
+ 1234  afl-fuzz -B
+ 1235  sudo docker start wechat
+ 1236  sudo docker stop wechat
+ 1237  ls 
+ 1238  afl-fuzz -B ./output/default/fuzz_bitmap
+ 1239  cd qemu_mode/
+ 1240  ./build_qemu_support.sh 
+ 1241  git status
+ 1242  git add .
+ 1243  git commit -am "Change the file according to the maximun instructions"
+ 1244  git push
+ 1245  git commit -am "change the v to n"
+ 1246  git push
+ 1247  git commit -am "change the error"
+ 1248  git push
+ 1249  git commit -am "fix the error"
+ 1250  git push
+ 1251  sudo docker start wechat
+ 1252  source /home/kai/.virtualenvs/angr/bin/activate
+ 1253  cd qemu_mode/
+ 1254  ls
+ 1255  cd qemuafl/
+ 1256  cd contrib/
+ 1257  ls
+ 1258  cd plugins/
+ 1259  ls
+ 1260  git status
+ 1261  cd ../../..
+ 1262  ls
+ 1263  git status
+ 1264  git add .
+ 1265  git commit -am "fix the conflict type"
+ 1266  git push
+ 1267  ./build_qemu_support.sh > make-error.log
+ 1268  cd qemu_mode/
+ 1269  ./build_qemu_support.sh > make-error.log
+ 1270  make clean
+ 1271  ls
+ 1272  cd qemuafl/
+ 1273  ls
+ 1274  make clean
+ 1275  cd ..
+ 1276  ./build_qemu_support.sh > make-error.log
+ 1277  cd qemuafl/
+ 1278  make clean
+ 1279  cd ..
+ 1280  grep -r afl_maybe_log | grep int
+ 1281  ./build_qemu_support.sh > make-error.log
+ 1282  pwd
+ 1283  git status
+ 1284  cd qemu_mode/
+ 1285  ./build_qemu_support.sh 
+ 1286  cd qemuafl/
+ 1287  make clean
+ 1288  ./build_qemu_support.sh 
+ 1289  cd ..
+ 1290  ./build_qemu_support.sh 
+ 1291  git submodule
+ 1292  cd qemuafl/
+ 1293  git submodule 
+ 1294  cd ..
+ 1295  git submodule 
+ 1296  ls
+ 1297  git submodule 
+ 1298  git config --list
+ 1299  cd qemu_mode/
+ 1300  ./build_qemu_support.sh 
+ 1301  source /home/kai/.virtualenvs/angr/bin/activate
+ 1302  git status
+ 1303  cd /home/kai/project/afl_plus/AFLplusplus/qemu_mode/qemuafl/accel/tcg/translate-all.c
+ 1304  ls
+ 1305  cd qemu_mode/
+ 1306  ls
+ 1307  ./build_qemu_support.sh > make-error.log
+ 1308  ls
+ 1309  cd qemuafl/
+ 1310  ls
+ 1311  cat Makefile 
+ 1312  histroy
+ 1313  history
+ 1314  make clean
+ 1315  cd ..
+ 1316  ./build_qemu_support.sh > make-error.log
+ 1317  cd qemuafl/
+ 1318  make clean
+ 1319  cd ..
+ 1320  ./build_qemu_support.sh > make-error.log
+ 1321  cd qemuafl/
+ 1322  make clean
+ 1323  cd ..
+ 1324  ./build_qemu_support.sh > make-error.log
+ 1325  cd qemuafl/
+ 1326  make clean
+ 1327  cd ..
+ 1328  ./build_qemu_support.sh > make-error.log
+ 1329  git status 
+ 1330  git commit -am "the afl-qemu-trace didn't work"
+ 1331  git push
+ 1332  cd qemuafl/
+ 1333  cd .git
+ 1334  ls
+ 1335  cat config 
+ 1336  cd ..
+ 1337  ./build_qemu_support.sh 
+ 1338  git add .
+ 1339  git commit -am "add size to track the size of block"
+ 1340  git push
+ 1341  git add .
+ 1342  git commit -am "add size to track the size of block"
+ 1343  git push
+ 1344  ls
+ 1345  rm make-error.log 
+ 1346  git add .
+ 1347  git status 
+ 1348  git commit -am "add size to track the size of block1"
+ 1349  git push
+ 1350  git status
+ 1351  cd qemu_mode/
+ 1352  git status
+ 1353  cd ..
+ 1354  cd qemu_mode/
+ 1355  ./build_qemu_support.sh 
+ 1356  tar -zxvf AFLplusplus-4.10c.tar.gz AFLplusplus-4.10c/
+ 1357  rename AFLplusplus AFLPP10
+ 1358  cd AFLPP10/
+ 1359  ls
+ 1360  workon afl++
+ 1361  make distrib 
+ 1362  pip install --upgrade pip
+ 1363  make distrib 
+ 1364  cd qemu_mode/
+ 1365  ls
+ 1366  ./build_qemu_support.sh 
+ 1367  afl-qemu-trace qemuafl/tests/
+ 1368  ls
+ 1369  cd ..
+ 1370  make install
+ 1371  sudo make install
+ 1372  git status
+ 1373  ls
+ 1374  cd qemu_mode/
+ 1375  git status
+ 1376  cd qemuafl/
+ 1377  git status
+ 1378  git config --list
+ 1379  cd ..
+ 1380  ./build_qemu_support.sh 
+ 1381  cd ..
+ 1382  ls
+ 1383  git config --list
+ 1384  git remote add origin git@github.com:MaksimFeng/AFLplusplus.git
+ 1385  git
+ 1386  git config --list
+ 1387  git remote add origin git@github.com:MaksimFeng/AFLplusplus.git
+ 1388  git init
+ 1389  cat .git/config 
+ 1390  cd ..
+ 1391  ls
+ 1392  git remote add origin git@github.com:MaksimFeng/AFLplusplus.git
+ 1393  git init
+ 1394  git config --global init.defaultBranch main
+ 1395  git remote add origin git@github.com:MaksimFeng/AFLplusplus.git
+ 1396  git branch -M main
+ 1397  git push -u origin main
+ 1398  git checkout 
+ 1399  git branch -M main
+ 1400  git push
+ 1401  git push --set-upstream origin main
+ 1402  git config --list
+ 1403  git commit -m 'first commit'
+ 1404  git branch -M main
+ 1405  git push
+ 1406  git push --set-upstream origin main
+ 1407  git status
+ 1408  git commit -am 'first commit'
+ 1409  git push
+ 1410  git push --set-upstream origin main
+ 1411  git checkout -b main
+ 1412  git commit -am 'first commit'
+ 1413  git push
+ 1414  git push --set-upstream origin main
+ 1415  git checkout
+ 1416  git push origin main
+ 1417  ls
+ 1418  cd ..
+ 1419  ls
+ 1420  pwd
+ 1421  cd qemu-afl/
+ 1422  ls
+ 1423  cd AFLPP10/
+ 1424  ls
+ 1425  git status
+ 1426  git config --list
+ 1427  cat .git/config 
+ 1428  git init
+ 1429  git submodule update
+ 1430  git submodule init
+ 1431  git submodule update
+ 1432  cat .git/config 
+ 1433  git commit -m "first commit"
+ 1434  git add .
+ 1435  cat .git/config 
+ 1436  cd ..
+ 1437  ls
+ 1438  rm -rf AFLPP10/
+ 1439  LS
+ 1440  ls
+ 1441  cd AFLplusplus-4.10c/
+ 1442  LS
+ 1443  ls
+ 1444  git init
+ 1445  cat .git/config 
+ 1446  git add .
+ 1447  git commit -m 'first update'
+ 1448  git remote add origin git@github.com:MaksimFeng/AFLplusplus.git
+ 1449  git push -u origin main
+ 1450  ls
+ 1451  cd qemu_mode/
+ 1452  ls
+ 1453  cd qemuafl/
+ 1454  git config --list
+ 1455  cd ..
+ 1456  ls
+ 1457  cd ..
+ 1458  ls
+ 1459  workon afl++
+ 1460  make distrib 
+ 1461  cd ..
+ 1462  ls
+ 1463  rm -rfAFLplusplus-4.10c
+ 1464  rm -rf AFLplusplus-4.10c
+ 1465  ls
+ 1466  mkdir AFLPLUSSPLUSS_DEV
+ 1467  cd AFLPLUSSPLUSS_DEV/
+ 1468  git clone https://github.com/AFLplusplus/AFLplusplus
+ 1469  ls
+ 1470  cd AFLplusplus/
+ 1471  cat .git/config 
+ 1472  make distrib
+ 1473  ls
+ 1474  cd qemu_mode/
+ 1475  ls
+ 1476  ./build_qemu_support.sh 
+ 1477  ls
+ 1478  cd ..
+ 1479  cat .git/config 
+ 1480  git status
+ 1481  git remote remove origin
+ 1482  git remote add origin https://github.com/MaksimFeng/AFLplusplus.git
+ 1483  git push -u origin main
+ 1484  git add .
+ 1485  git commit -am 'update'
+ 1486  git push -u origin main
+ 1487  git status
+ 1488  git config --list
+ 1489  git push -u origin master
+ 1490  git init
+ 1491  cat .git/config 
+ 1492  git add .
+ 1493  git commit -m 'first commit'
+ 1494  git commit -am 'first commit'
+ 1495  git branch -M main
+ 1496  git push -u origin main
+ 1497  git status
+ 1498  cd qemu_mode/
+ 1499  ./build_qemu_support.sh 
+ 1500  git add .
+ 1501  git commit -am "update"
+ 1502  git commit -m "update"
+ 1503  git push
+ 1504  git status
+ 1505  ls
+ 1506  git commit -am "update"
+ 1507  cd ..
+ 1508  cd qemu_mode/
+ 1509  cd qemuafl/
+ 1510  git commit -am 'update'
+ 1511  git push
+ 1512  git checkout
+ 1513  git status
+ 1514  git config --list
+ 1515  git push
+ 1516  cd ..
+ 1517  git status
+ 1518  cd qemu_mode/
+ 1519  git config --list
+ 1520  cd qemuafl/
+ 1521  git config --list
+ 1522  cd project/
+ 1523  ls
+ 1524  cd qemu-afl/
+ 1525  ls
+ 1526  git clone https://github.com/AFLplusplus/qemuafl.git
+ 1527  ls
+ 1528  cd qemuafl
+ 1529  ls
+ 1530  git config --list
+ 1531  git remote remove origin
+ 1532  git remote add origin git@github.com:MaksimFeng/qemuafl.git
+ 1533  git init 
+ 1534  git add .
+ 1535  git commit -am 'update'
+ 1536  git status
+ 1537  ls
+ 1538  git branch -M main
+ 1539  git push -u origin main
+ 1540  sudo docker start wechat
+ 1541  git status 
+ 1542  git config --list
+ 1543  vim .git/config 
+ 1544  git commit -m 'hello'
+ 1545  git push
+ 1546  git add .
+ 1547  git commit -am 'hello'
+ 1548  git push
+ 1549  git status 
+ 1550  cd qemu_mode/
+ 1551  ls
+ 1552  cd qemuafl/
+ 1553  cd .git
+ 1554  ls
+ 1555  cd ..
+ 1556  ls
+ 1557  cd qemuafl/
+ 1558  cd ..
+ 1559  git init
+ 1560  cd .git/
+ 1561  vim config 
+ 1562  cd ..
+ 1563  cd qemuafl/
+ 1564  cd .git
+ 1565  vim .git
+ 1566  cat .git
+ 1567  cd ..
+ 1568  ./build_qemu_support.sh 
+ 1569  vim .git/config 
+ 1570  cd qemuafl/
+ 1571  cd git
+ 1572  cd ..
+ 1573  ./update_ref.sh 
+ 1574  cd ..
+ 1575  vim .git/config 
+ 1576  cd qemu_mode/
+ 1577  cd qemuafl/
+ 1578  cd ..
+ 1579  ./build_qemu_support.sh 
+ 1580  vim .git/config 
+ 1581  cd qemuafl/
+ 1582  cd .git
+ 1583  cd ..
+ 1584  vim .git/config 
+ 1585  cd qemu_mode/
+ 1586  ./build_qemu_support.sh 
+ 1587  git status 
+ 1588  git config --list
+ 1589  cd qemuafl/
+ 1590  git config --list
+ 1591  git remote remove origin 
+ 1592  git remote add origin https://github.com/MaksimFeng/qemuafl.git
+ 1593  cd ..
+ 1594  git add .
+ 1595  git commit -am 'qemu'
+ 1596  git push
+ 1597  cd qemu_mode/
+ 1598  cd qemuafl/
+ 1599  git add .
+ 1600  git status 
+ 1601  git commit -am 'update'
+ 1602  git push
+ 1603  git push origin main
+ 1604  git push -u origin main
+ 1605  git init 
+ 1606  cd .git
+ 1607  git push origin main
+ 1608  git pull origin main
+ 1609  git status 
+ 1610  git push
+ 1611  git push origin main
+ 1612  git checkout main
+ 1613  cd ..
+ 1614  cat .git/config 
+ 1615  cd qemu_mode/
+ 1616  cd .git/
+ 1617  ls
+ 1618  cat config 
+ 1619  cd ..
+ 1620  cd qemuafl/
+ 1621  cd .git
+ 1622  ls
+ 1623  cd ..
+ 1624  cd .git
+ 1625  ls
+ 1626  cd modules/
+ 1627  ls
+ 1628  cd qemu_mode/
+ 1629  ls
+ 1630  cd qemuafl/
+ 1631  ls
+ 1632  vim config 
+ 1633  cd modules/
+ 1634  ls
+ 1635  cd ..
+ 1636  ls
+ 1637  cd ..
+ 1638  cd ../../..
+ 1639  cd qemu_mode/
+ 1640  ls
+ 1641  ls -a
+ 1642  cd .git/
+ 1643  ls
+ 1644  vim config 
+ 1645  cd ..
+ 1646  cd qemuafl/
+ 1647  ls
+ 1648  ls -a
+ 1649  vim .git
+ 1650  cd ..
+ 1651  git sta
+ 1652  cd qemu_mode/
+ 1653  ./build_qemu_support.sh 
+ 1654  cd ..
+ 1655  git status 
+ 1656  git add .
+ 1657  git commit -am 'update'
+ 1658  git push 
+ 1659  git add .
+ 1660  git commit -m 'update'
+ 1661  git commit -am 'update'
+ 1662  git commit -a
+ 1663  git status 
+ 1664  git add .
+ 1665  git commit -am 'he'
+ 1666  git push
+ 1667  cd qemu_mode/
+ 1668  git commit -am 'try to update'
+ 1669  git add .
+ 1670  git rm --cached qemuafl/
+ 1671  ls
+ 1672  git add .
+ 1673  git commit -am 'update'
+ 1674  cd ..
+ 1675  git push 
+ 1676  cd qemu_mode/
+ 1677  git push 
+ 1678  cd qemuafl/
+ 1679  git config --list
+ 1680  git commit -am 'update'
+ 1681  git push
+ 1682  cd ..
+ 1683  cd qemu_mode/
+ 1684  git config --list
+ 1685  cd ..
+ 1686  git commit -am 'update'
+ 1687  git push
+ 1688  git commit -am 'catch up with the new line'
+ 1689  cd qemu_mode/
+ 1690  cd qemuafl/
+ 1691  git commit -am 'catch up with the new line'
+ 1692  git push 
+ 1693  cd ..
+ 1694  cd..
+ 1695  cd ..
+ 1696  git commit -a
+ 1697  git commit -am 'make change'
+ 1698  git push
+ 1699  cd qemu_mode/
+ 1700  ./build_qemu_support.sh 
+ 1701  cd ..
+ 1702  ls
+ 1703  afl-fuzz -m none -i include/ -o output/ -Q vulnerable @@
+ 1704  echo core >/proc/sys/kernel/core_pattern
+ 1705  afl-fuzz -m none -i include/ -o output/ -Q vulnerable @@
+ 1706  sudo echo core >/proc/sys/kernel/core_pattern
+ 1707  sudo su
+ 1708  afl-fuzz -m none -i include/ -o output/ -Q vulnerable @@
+ 1709  sudo su
+ 1710  afl-fuzz -m none -i include/ -o output/ -Q vulnerable @@
+ 1711  afl-fuzz -m none -i include/ -o output/ -Q ./vulnerable @@
+ 1712  afl-qemu-trace -d trace:exec_tb vulnerable 
+ 1713  afl-qemu-trace -d trace:exec_tb_nocache vulnerable 
+ 1714  afl-qemu-trace -d trace:exec_tb_exit vulnerable 
+ 1715  afl-qemu-trace -d trace:translate_block vulnerable 
+ 1716  afl-qemu-trace -h
+ 1717  afl-qemu-trace -trace trace-test vulnerable 
+ 1718  echo translate_block > /tmp/events
+ 1719  afl-qemu-trace -trace /tmp/events vulnerable 
+ 1720  cd /tmp/
+ 1721  ls
+ 1722  cd -
+ 1723  ls
+ 1724  cd tmp
+ 1725  cd /tmp
+ 1726  ls
+ 1727  cat events
+ 1728  cd -
+ 1729  afl-qemu-trace -trace ./tmp/events vulnerable 
+ 1730  qemu-trace -h
+ 1731  afl-qemu-trace -h
+ 1732  afl-qemu-trace -d help
+ 1733  afl-qemu-trace -d trace:help
+ 1734  afl-qemu-trace -d out_asm vulnerable 
+ 1735  afl-qemu-trace -d out_asm vulnerable > host-address.txt
+ 1736  afl-qemu-trace -d out_asm vulnerable -> host-address.txt
+ 1737  history 
+ 1738  afl-qemu-trace -d trace:help
+ 1739  afl-qemu-trace -d trace:help > trace_information.txt
+ 1740  afl-qemu-trace -d -h
+ 1741  afl-qemu-trace -d trace:exec_tb > exec_tb vulnerable 
+ 1742  afl-qemu-trace -d trace:exec_tb > exec_tb.txt vulnerable 
+ 1743  afl-qemu-trace -d trace:exec_tb vulnerable > exec_tb.txt 
+ 1744  afl-qemu-trace vulnerable-d trace:exec_tb > exec_tb.txt 
+ 1745  afl-qemu-trace vulnerable -d trace:exec_tb > exec_tb.txt 
+ 1746  afl-qemu-trace -d trace:exec_tb vulnerable > exec_tb.txt 
+ 1747  afl-qemu-trace -d trace:exec_tb vulnerable > exec_tb.txt 2 > stderr.txt
+ 1748  afl-qemu-trace -d trace:exec_tb vulnerable
+ 1749  afl-qemu-trace -d trace:/tmp/events vulnerable
+ 1750  ls
+ 1751  cd qemu_mode/
+ 1752  ls
+ 1753  cd qemuafl/
+ 1754  ./scripts/simpletrace.py trace-events-all trace-12345
+ 1755  ./scripts/simpletrace.py ./accel/tcg/trace-events-all trace-12345
+ 1756  ./scripts/simpletrace.py ./build/trace/trace-events-all trace-12345
+ 1757  ./scripts/simpletrace.py ./build/trace/trace-events-all
+ 1758  ./scripts/simpletrace.py /build/trace/trace-events-all > output.txt
+ 1759  ./scripts/simpletrace.py /build/trace/trace-events-all ../../vulnerable > output.txt
+ 1760  ./scripts/simpletrace.py ./build/trace/trace-events-all ../../vulnerable > output.txt
+ 1761  afl-qemu-trace -d trace:exec_tb vulnerable
+ 1762  cd ..
+ 1763  afl-qemu-trace -d trace:exec_tb vulnerable
+ 1764  script -f exec_tb.txt
+ 1765  script -f exec_tb_nocache.txt
+ 1766  afl-qemu-trace -d trace:exec_tb_nocache vulnerable
+ 1767  afl-qemu-trace -d trace:exec_tb_exit vulnerable
+ 1768  script -f exec_tb_exit.txt
+ 1769  afl-qemu-trace -d trace:translate_block vulnerable
+ 1770  script -f translate_block.txt
+ 1771  afl-qemu-trace -d trace:mmu_helper_get_phys_addr_data vulnerable
+ 1772  afl-qemu-trace -d trace:hppa_tlb_get_physical_address vulnerable
+ 1773  python Process_Angr.py 
+ 1774  pip install --upgrade matplotlib
+ 1775  /bin/python /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1776  /bin/python /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1777  ls
+ 1778  python test.py 
+ 1779  afl-qemu-trace -d exec vulnerable 
+ 1780  afl-qemu-trace -d in_asm vulnerable 
+ 1781  afl-qemu-trace -d exec vulnerable 
+ 1782  afl-qemu-trace -d trace:mmu_helper_get_phys_addr_data vulnerable
+ 1783  afl-qemu-trace -d trace:help
+ 1784  afl-qemu-trace -d out_asm vulnerable 
+ 1785  afl-qemu-trace -d
+ 1786  afl-qemu-trace -d -h
+ 1787  afl-qemu-trace -h
+ 1788  afl-qemu-trace -d help
+ 1789  afl-qemu-trace -d exec vulnerable 
+ 1790  afl-qemu-trace -d exec vulnerable > the_trace_before_executed_tb.txt
+ 1791  script -f the_trace_before_executed_tb.txt
+ 1792  git status 
+ 1793  git add .
+ 1794  git commit -am "add trace file"
+ 1795  git push 
+ 1796  afl-qemu-trace -d help
+ 1797  afl-qemu-trace -d in_asm vulnerable > target_assembly.txt
+ 1798  script -f the_trace_before_executed_tb.txt
+ 1799  afl-qemu-trace -d in_asm vulnerable > target_assembly.txt
+ 1800  afl-qemu-trace -d out_asm vulnerable > host_assembly.txt
+ 1801  /bin/python2 /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1802  history
+ 1803  cd project/
+ 1804  ls
+ 1805  cd qemu-afl/
+ 1806  ls
+ 1807  cd AFLPLUSSPLUSS_DEV/AFLplusplus/
+ 1808  ls
+ 1809  objdump -d vulnerable 
+ 1810  LS
+ 1811  ls
+ 1812  cd project/
+ 1813  ls
+ 1814  cd qemu-afl/
+ 1815  ls
+ 1816  cd AFLPLUSSPLUSS_DEV/
+ 1817  ls
+ 1818  cd AFLplusplus/
+ 1819  ls
+ 1820  man gcc
+ 1821  ls
+ 1822  gcc -static -static-libgcc Test.c -o VUN
+ 1823  python test.py 
+ 1824  python test.py > vun.txt
+ 1825  /bin/python2 /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1826  git status 
+ 1827  git add .
+ 1828  git commit -am "add plugin"
+ 1829  git push
+ 1830  afl-qemu-trace -d out_asm V
+ 1831  afl-qemu-trace -d out_asm VUN > /home/kai/project/qemu-afl/host_assembly_VUN.txt
+ 1832  afl-qemu-trace -d out_asm VUN -D /home/kai/project/qemu-afl/host_assembly_VUN.txt
+ 1833  afl-qemu-trace -d out_asm VUN -D /home/kai/project/qemu-afl/host_assembly_VUN
+ 1834  afl-qemu-trace -d out_asm -D /home/kai/project/qemu-afl/host_assembly_VUN.txt VUN 
+ 1835  afl-qemu-trace -d in_asm -D /home/kai/project/qemu-afl/target_assembly_VUN.txt VUN 
+ 1836  objdump -d VUN 
+ 1837  objdump -d VUN > vun.txt#
+ 1838  python test.py > vun1.txt
+ 1839  /bin/python2 /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1840  python test.py > vun1.txt
+ 1841  python test.py > vun2.txt
+ 1842  python test.py > vun_def_uses.txt
+ 1843  pip update angr
+ 1844  pip install --update angr
+ 1845  pip install --upgrate angr
+ 1846  pip install --upgrade angr
+ 1847  python test.py > vun_def_uses1.txt
+ 1848  python Process_def_use.py 
+ 1849  python test_size.py 
+ 1850  python Process_def_use.py 
+ 1851  python test_size.py 
+ 1852  python Process_def_use.py 
+ 1853  python text.py 
+ 1854  python text.py > trypy.txt
+ 1855  python text.py 
+ 1856  python text.py > find_how.txt
+ 1857  python Process_def_use.py > final_get_tb.txt
+ 1858  python Process_def_use.py
+ 1859  sudo apt-get update
+ 1860  sudo apt-get isntall libcjson-dev
+ 1861  sudo apt-get install libcjson-dev
+ 1862  gcc -o parse_jason parse_jason.c -lcjson
+ 1863  cJSON
+ 1864  gcc -o parse_jason parse_jason.c -lcjson
+ 1865  ./parse_jason 
+ 1866  gcc -o parse_jason parse_jason.c -lcjson
+ 1867  ./parse_jason 
+ 1868  gcc -o parse_jason parse_jason.c -lcjson
+ 1869  ./parse_jason 
+ 1870  gcc -o parse_jason parse_jason.c -lcjson
+ 1871  ./parse_jason 
+ 1872  gcc -o parse_jason parse_jason.c -lcjson
+ 1873  ./parse_jason 
+ 1874  gcc -o parse_jason parse_jason.c -lcjson
+ 1875  ./parse_jason 
+ 1876  gcc -o parse_jason parse_jason.c -lcjson
+ 1877  ./parse_jason 
+ 1878  gcc -o parse_jason parse_jason.c -lcjson
+ 1879  ./parse_jason 
+ 1880  gcc -o parse_jason parse_jason.c -lcjson
+ 1881  ./parse_jason 
+ 1882  afl-qemu-trace -d in_asm -D /home/kai/project/qemu-afl/host_assembly_VUN.txt VUN 
+ 1883  afl-qemu-trace -d trace:help
+ 1884  afl-qemu-trace -d trace:traslate_block -D /home/kai/project/qemu-afl/traslate_block.txt
+ 1885  afl-qemu-trace -d trace:traslate_block -D /home/kai/project/qemu-afl/traslate_block.txt VUN 
+ 1886  afl-qemu-trace -d trace:traslate-block -D /home/kai/project/qemu-afl/traslate_block.txt VUN 
+ 1887  afl-qemu-trace -d trace:translate_block -D /home/kai/project/qemu-afl/traslate_block.txt VUN 
+ 1888  afl-qemu-trace -h
+ 1889  afl-qemu-trace -g 1122
+ 1890  afl-qemu-trace -g 1122 VUN 
+ 1891  afl-qemu-trace -d trace:gdbstub_op_start VUN 
+ 1892  afl-qemu-trace -d trace:gdbstub_op_start -D /home/kai/project/qemu-afl/qemu_dbg.txt VUN 
+ 1893  env
+ 1894  ./qemu_mode/qemuafl/scripts/simpletrace.py ./qemu_mode/qemuafl/build/trace/trace-events-all trace-1234
+ 1895  ./qemu_mode/qemuafl/scripts/simpletrace.py ./qemu_mode/qemuafl/build/trace/trace-events-all trace-12345
+ 1896  ll */trace-events
+ 1897  cd qemu_mode/
+ 1898  ./build_qemu_support.sh 
+ 1899  cd ..
+ 1900  afl-qemu-trace -d:translate_block_size VUN
+ 1901  afl-qemu-trace -d:help
+ 1902  afl-qemu-trace -d trace:translate_block_size VUN 
+ 1903  info trace-events
+ 1904  afl-qemu-trace -d trace:help
+ 1905  git status 
+ 1906  git add .
+ 1907  git commit -am "add trace"
+ 1908  git push
+ 1909  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1910  cd qemu_mode/
+ 1911  cd qemuafl/def_use_chain/
+ 1912  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1913  ls
+ 1914  ./my_program 
+ 1915  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1916  ./my_program 
+ 1917  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1918  ./my_program 
+ 1919  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1920  ./my_program 
+ 1921  ./my_program > text.txt
+ 1922  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1923  ./my_program > text.txt
+ 1924  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1925  ./my_program > text.txt
+ 1926  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1927  ./my_program > text.txt
+ 1928  git status 
+ 1929  git add .
+ 1930  git commit -am "add def-use"
+ 1931  git push
+ 1932  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1933  ./my_program > text.txt
+ 1934  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1935  ./my_program > text.txt
+ 1936  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1937  ./my_program > text.txt
+ 1938  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1939  ./my_program
+ 1940  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1941  ./my_program > text.txt
+ 1942  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1943  ./my_program > text.txt
+ 1944  gcc -o my_program read_def_file.c parse_jason.c -lcjson
+ 1945  ./my_program > text.txt
+ 1946  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c test_data.c -lcjson
+ 1947  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1948  ./my_program
+ 1949  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1950  ./my_program
+ 1951  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1952  ./my_program
+ 1953  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1954  ./my_program
+ 1955  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1956  ./my_program
+ 1957  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1958  ./my_program1
+ 1959  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1960  ./my_program1
+ 1961  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1962  ./my_program1
+ 1963  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1964  ./my_program1
+ 1965  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1966  ./my_program1
+ 1967  git add .
+ 1968  git commit -am "def"
+ 1969  git push
+ 1970  git clone https://github.com/troydhanson/uthash
+ 1971  ls
+ 1972  cd uthash/
+ 1973  ls
+ 1974  grep uthash.h
+ 1975  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1976  cd ..
+ 1977  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson
+ 1978  cd uthash/
+ 1979  ls
+ 1980  cd ..
+ 1981  ls
+ 1982  curl -O https://raw.githubusercontent.com/troydhanson/uthash/master/src/uthash.h
+ 1983  ls
+ 1984  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson -uthash
+ 1985  ./my_program1
+ 1986  gcc -o my_program1 read_def_file.c parse_jason.c test_data.c -lcjson -uthash
+ 1987  /bin/python2 /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1988  gdb 1122
+ 1989  cd project/qemu-afl/AFLPLUSSPLUSS_DEV/AFLplusplus/
+ 1990  gdb VUN
+ 1991  /bin/python2 /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1992  python def-use_pair.py 
+ 1993  python Process_def_use.py 
+ 1994  gcc -o read_data_chain parse_jason.c 
+ 1995  sudo apt-get update
+ 1996  sudo apt-get install libcjson1 libcjson-dev
+ 1997  gcc -o read_jason parse_jason.c -lcjson
+ 1998  ./read_jason 
+ 1999  /bin/python2 /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/kai/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 2000  git status 
+ 2001  cd qemu_mode/
+ 2002  ls
+ 2003  cd qemuafl/
+ 2004  ls
+ 2005  cd def_use_chain/
+ 2006  ls
+ 2007  ./my_program 
+ 2008  ls
+ 2009  history
+ 2010  ls
+ 2011  gcc -o read_hash read_def_file.c parse_jason.c -lcjson
+ 2012  ./read_hash 
+ 2013  gcc -o read_hash read_def_file.c parse_jason.c -lcjson
+ 2014  ./read_hash 
+ 2015  ls
+ 2016  git sta
+ 2017  git status 
+ 2018  git add .
+ 2019  git rm --cached def_use_chain/uthash
+ 2020  ls
+ 2021  git add .
+ 2022  git commit -am "add hash"
+ 2023  git push 
+ 2024  ./read_hash 
+ 2025  gcc -o read_hash read_def_file.c parse_jason.c -lcjson
+ 2026  ./read_hash 
+ 2027  gcc -o read_hash read_def_file.c parse_jason.c -lcjson
+ 2028  ./read_hash 
+ 2029  gcc -o read_hash read_def_file.c parse_jason.c -lcjson
+ 2030  ./read_hash 
+ 2031  cd ..
+ 2032  ./build_qemu_support.sh 
+ 2033  export AFL_DATAFLOW=1
+ 2034  ./build_qemu_support.sh 
+ 2035  gcc -shared -fPIC read_def_file.c parse_jason.c -o dataflow.so -lcjson
+ 2036  cd qemuafl/
+ 2037  cd def_use_chain/
+ 2038  gcc -shared -fPIC read_def_file.c parse_jason.c -o dataflow.so -lcjson
+ 2039  export AFL_PRELOAD=/home/kai/project/qemu-afl/AFLPLUSSPLUSS_DEV/AFLplusplus/qemu_mode/qemuafl/def_use_chain/dataflow.so 
+ 2040  cd ..
+ 2041  ./build_qemu_support.sh 
+ 2042  cd qemuafl/def_use_chain/
+ 2043  gcc -shared -fPIC read_def_file.c parse_jason.c -o dataflow.so -lcjson
+ 2044  cd -
+ 2045  ./build_qemu_support.sh 
+ 2046  cd qemuafl/def_use_chain/
+ 2047  gcc -shared -fPIC parse_jason.c -o dataflow.so -lcjson
+ 2048  cd -
+ 2049  ./build_qemu_support.sh 
+ 2050  cd -
+ 2051  gcc -shared -fPIC parse_jason.c -o dataflow.so -lcjson
+ 2052  cd -
+ 2053  ./build_qemu_support.sh 
+ 2054  cd -
+ 2055  gcc -shared -fPIC parse_jason.c -o dataflow.so -lcjson
+ 2056  cd -
+ 2057  ./build_qemu_support.sh 
+ 2058  ./build_qemu_support.sh -lcjson
+ 2059  ./build_qemu_support.sh
+ 2060  afl-qemu-trace -h
+ 2061  afl-qemu-trace ../VUN 
+ 2062  ./build_qemu_support.sh
+ 2063  cd ..
+ 2064  ls
+ 2065  afl-fuzz -m none -i testcases/others/elf/ -o output/ -Q ./VUN 
+ 2066  sudo su
+ 2067  afl-fuzz -m none -i testcases/others/elf/ -o output/ -Q ./VUN 
+ 2068  sudo su
+ 2069  afl-fuzz -m none -i testcases/others/elf/ -o output/ -Q ./VUN 
+ 2070  afl-fuzz -m none -i include/ -o output/ -Q ./VUN 
+ 2071  cd qemu_mode/
+ 2072  ./build_qemu_support.sh 
+ 2073  cd ..
+ 2074  afl-fuzz -m none -i include/ -o output/ -Q ./VUN 
+ 2075  ./build_qemu_support.sh 
+ 2076  cd qemu_mode/
+ 2077  ./build_qemu_support.sh 
+ 2078  cd ..
+ 2079  afl-fuzz -m none -i include/ -o output_qemu/ -Q ./VUN 
+ 2080  history
+ 2081  history > history.txt
