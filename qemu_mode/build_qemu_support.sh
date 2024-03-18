@@ -65,29 +65,34 @@ if echo "$CC" | grep -qF /afl-; then
   exit 1
 
 fi
+echo $CC
+unset CC
+unset CXX
 
 echo "[+] All checks passed!"
 
+echo $CC
+
 echo "[*] Making sure qemuafl is checked out"
 
-# git status 1>/dev/null 2>/dev/null
-# if [ $? -eq 0 ]; then
+git status 1>/dev/null 2>/dev/null
+#if [ $? -eq 0 ]; then
 #   echo "[*] initializing qemuafl submodule"
 #   git submodule init || exit 1
 #   git submodule update ./qemuafl 2>/dev/null # ignore errors
-# else
+#else
 #   echo "[*] cloning qemuafl"
 #   test -d qemuafl/.git || {
-#     CNT=1
-#     while [ '!' -d qemuafl/.git -a "$CNT" -lt 4 ]; do
-#       echo "Trying to clone qemuafl (attempt $CNT/3)"
-#       git clone --depth 1 https://github.com/MaksimFeng/qemuafl.git
-#       CNT=`expr "$CNT" + 1`
-#     done
+#    CNT=1
+#    while [ '!' -d qemuafl/.git -a "$CNT" -lt 4 ]; do
+#        echo "Trying to clone qemuafl (attempt $CNT/3)"
+#        git clone --depth 1 https://github.com/MaksimFeng/qemuafl.git
+#        CNT=`expr "$CNT" + 1`
+#       done
 #   }
-# fi
+#fi
 
-test -e qemuafl/.git || { echo "[-] Not checked out, please install git or check your internet connection." ; exit 1 ; }
+#test -e qemuafl/.git || { echo "[-] Not checked out, please install git or check your internet connection." ; exit 1 ; }
 echo "[+] Got qemuafl."
 
 cd "qemuafl" || exit 1

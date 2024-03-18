@@ -620,7 +620,7 @@ ifeq "$(IN_REPO)" "1"
 	-test -e nyx_mode/QEMU-Nyx/Makefile && $(MAKE) -C nyx_mode/QEMU-Nyx clean || true
 else
 	rm -rf coresight_mode/coresight_trace
-	rm -rf qemu_mode/qemuafl
+#	rm -rf qemu_mode/qemuafl
 	rm -rf unicorn_mode/unicornafl
 endif
 
@@ -628,7 +628,7 @@ endif
 deepclean:	clean
 	rm -rf coresight_mode/coresight-trace
 	rm -rf unicorn_mode/unicornafl
-	rm -rf qemu_mode/qemuafl
+#	rm -rf qemu_mode/qemuafl
 	rm -rf nyx_mode/libnyx nyx_mode/packer nyx_mode/QEMU-Nyx
 ifeq "$(IN_REPO)" "1"
 	git checkout coresight_mode/coresight-trace

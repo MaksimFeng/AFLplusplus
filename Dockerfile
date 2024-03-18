@@ -86,10 +86,14 @@ ARG CXX=g++-$GCC_VERSION
 # Used in CI to prevent a 'make clean' which would remove the binaries to be tested
 ARG TEST_BUILD
 
-RUN sed -i.bak 's/^	-/	/g' GNUmakefile && \
-    make clean && make distrib && \
-    ([ "${TEST_BUILD}" ] || (make install)) && \
-    mv GNUmakefile.bak GNUmakefile
+#RUN sed -i.bak 's/^	-/	/g' GNUmakefile && \
+#    make clean && make distrib && \
+#    ([ "${TEST_BUILD}" ] || (make install)) && \
+ #   mv GNUmakefile.bak GNUmakefile
+# sed -i.bak 's/^	-/	/g' \
+RUN    make clean && make distrib && ([ "${TEST_BUILD}" ] || (make install))  
+  #\
+ #   mv GNUmakefile.bak GNUmakefile
 
 RUN echo "set encoding=utf-8" > /root/.vimrc && \
     echo ". /etc/bash_completion" >> ~/.bashrc && \
